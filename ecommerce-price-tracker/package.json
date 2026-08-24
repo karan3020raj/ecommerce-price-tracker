@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce-price-tracker",
+  "version": "1.0.0",
+  "description": "A resilient e-commerce price scraper built with Node.js, Puppeteer, Axios and Cheerio.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape": "node src/index.js",
+    "test": "node --test",
+    "postinstall": "node node_modules/puppeteer/install.mjs"
+  },
+  "keywords": ["web-scraping", "price-tracker", "puppeteer", "cheerio", "nodejs"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.5.0",
+    "puppeteer": "^24.5.0"
+  }
+}
